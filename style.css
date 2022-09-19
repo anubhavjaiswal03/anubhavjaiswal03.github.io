@@ -70,6 +70,9 @@ video#bg-video {
 	border-radius: 1.25rem;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.container video {
+	object-fit: cover;
+}
 .container h1 {
 	text-transform: uppercase;
 	color: var(--primary-color-500);
