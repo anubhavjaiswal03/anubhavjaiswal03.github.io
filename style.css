@@ -5,6 +5,7 @@
 	--primary-color-300: #c70039;
 	--higlight-color-500: #f6c667;
 	--neutral-color-500: #f1f8fd;
+	--gradient-bg: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
 }
 * {
 	padding: 0;
@@ -56,12 +57,7 @@ video#bg-video {
 	background-color: #f6c667;
 
 	background-color: #4158d0;
-	background-image: linear-gradient(
-		43deg,
-		#4158d0 0%,
-		#c850c0 46%,
-		#ffcc70 100%
-	);
+	background-image: var(--gradient-bg);
 
 	top: -0.25rem;
 	left: -0.25rem;
@@ -100,12 +96,7 @@ video#bg-video {
 
 .signature {
 	background-color: #4158d0;
-	background-image: linear-gradient(
-		43deg,
-		#4158d0 0%,
-		#c850c0 46%,
-		#ffcc70 100%
-	);
+	background-image: var(--gradient-bg);
 
 	border-radius: 50px;
 	padding: 0.5rem 1.5rem;
