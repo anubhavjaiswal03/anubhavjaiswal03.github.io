@@ -5,7 +5,11 @@
 	--primary-color-300: #c70039;
 	--higlight-color-500: #f6c667;
 	--neutral-color-500: #f1f8fd;
-	--gradient-bg: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+	--gradient-bg: linear-gradient(
+		134.6deg,
+		rgba(201, 37, 107, 1) 15.4%,
+		rgba(116, 16, 124, 1) 74.7%
+	);
 }
 * {
 	padding: 0;
