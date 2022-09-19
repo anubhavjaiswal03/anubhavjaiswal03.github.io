@@ -21,6 +21,23 @@ body {
 	background: var(--neutral-color-500);
 }
 
+video {
+	z-index: -100;
+	overflow: hidden;
+}
+video#bg-video {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+}
 .container {
 	position: relative;
 	margin: 2rem;
@@ -94,7 +111,9 @@ body {
 	font-size: 0.8rem;
 	vertical-align: middle;
 	text-align: center;
-	color: #eee;
+	color: var(--neutral-color-500);
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .signature span {
 	color: orangered;
