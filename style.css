@@ -103,6 +103,7 @@ video#bg-video {
 	/* margin: 0.5rem 1rem; */
 	display: flex;
 	flex-wrap: wrap;
+	padding-top: 1rem;
 }
 .container li {
 	list-style-type: none;
