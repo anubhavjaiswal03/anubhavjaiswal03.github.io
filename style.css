@@ -107,11 +107,11 @@ video#bg-video {
 }
 .container li {
 	list-style-type: none;
-	margin: 0.25rem;
+	margin: 0.1rem 0.2rem;
 }
 .container li a {
-	font-size: 0.75rem;
-	padding: 0.2rem 0.8rem;
+	font-size: 0.7rem;
+	padding: 0.2rem 0.6rem;
 	/* font-weight: bold; */
 	color: var(--neutral-color-500);
 	text-decoration: none;
